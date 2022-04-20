@@ -256,6 +256,7 @@ ol {
   max-width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -386,22 +387,23 @@ ol {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--bgc-footer-color);
 }
 .logo-white {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-list {
-  color: #ffffff;
+  color: var(--white-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 .footer-map {
-  color: #ffffff;
+  min-width: 231px;
   font-style: normal;
+  color: var(--white-color);
 }
 
 .address {
@@ -471,7 +473,8 @@ ol {
   border-radius: 50%;
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: var(--accent-color);
 }
 
