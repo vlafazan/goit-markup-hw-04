@@ -337,6 +337,10 @@ ol {
   fill: var(--white-color);
 }
 
+.users-link:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* CLIENTS */
 
 .clients-title {
